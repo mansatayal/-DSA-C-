@@ -1,0 +1,15 @@
+Big O Notation :
+- expresses the upper bound of an algorithm's time or space complexity 
+- we mainly consider the worst case scenario of the algorithm to find it's complexity in terms of big o
+
+TYPES:
+- constant time complexity: O(1)
+- linear time complexity: O(n)
+- quadratic time complexity: O(n^2)
+- polynomial time complexity: O(n ^ k)
+- logarithmic time complexity: O(log n)
+- logarithmic time complexity: O(n log n)
+- exponential time complexity: O(2 ^ n)
+- square root time complexity: O(root n)
+- factorial time complexity: O(n!)     ->includes => permutations => travelling salesman problem
+
