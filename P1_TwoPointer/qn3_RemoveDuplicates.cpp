@@ -42,11 +42,6 @@ public:
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
-        
-        // if none or only one element exists return head
-        if(head == nullptr || head -> next == nullptr){ 
-            return head;
-        }
 
         ListNode* curr = head;
         
