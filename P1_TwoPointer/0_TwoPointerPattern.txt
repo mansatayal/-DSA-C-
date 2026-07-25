@@ -1,0 +1,5 @@
+when to use:
+=> the qn needs to be of either array/vector or linked list
+=> either the list is already SORTED or will benefit upon sorting it    (most imp)
+=> Rearrange/ Remove duplicate/ Merge inplace/ Subarrays (in place)     (imp)
+=> Find more than one thing (eg. pairs, triplets, quadruples etc)
