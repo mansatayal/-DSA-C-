@@ -1,0 +1,19 @@
+SLIDING WINDOW:
+=> used in array or string
+=> subarray/ substring (continuous)     [not sub sequence it's non continuous]
+=> are we finding?
+-max
+-min
+-longest
+-shortest
+-sum
+-count
+-average
+-atmost k
+-atleast k 
+-exactly k
+
+
+two types:
+1. fixed: size of subarray is given
+2. dynamic: size of subarrat is variable
