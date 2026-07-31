@@ -3,6 +3,7 @@
 #include <climits>
 using namespace std;
 
+// dynamic
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {

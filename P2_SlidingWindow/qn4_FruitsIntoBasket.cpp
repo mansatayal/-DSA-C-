@@ -1,8 +1,10 @@
 #include <iostream>
 #include <unordered_map>
 #include <climits>
+#include <vector>
 using namespace std;
 
+// dynamic
 class Solution {
 public:
     int totalFruit(vector<int>& fruits) {
