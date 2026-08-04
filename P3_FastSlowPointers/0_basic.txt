@@ -1,0 +1,6 @@
+FAST SLOW POINTER
+- can't decide after looking at the data structure (works for string, array, linked list, single variable)
+
+->> detect cycle/ loop/ repeatitive
+
+
