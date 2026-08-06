@@ -1,0 +1,15 @@
+Kadane's Algorithm:
+ 
+=>> used in contiguous subarray
+=>> used to find best sum, product, frequency etc   [best means max / min]
+=>> works on negative positive zero elements too
+
+why not sliding window?
+sliding window works on positive elements only as  high++ -> sum++  and low++ -> sum--
+but in case of mixed negative and positive elements the logic will fail as (high++ can either be sum++ or sum-- and vice verca)
+
+so we use kadane algo 
+we track it via the best end so far 
+eg. sum = bestend + nums[i]     // add the prev elements
+    bestend = max(sum, nums[i])     
+    ans = max(ans, bestend)
