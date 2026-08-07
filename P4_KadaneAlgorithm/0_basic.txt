@@ -1,7 +1,9 @@
 Kadane's Algorithm:
- 
+
+=>> only array 
+
 =>> used in contiguous subarray
-=>> used to find best sum, product, frequency etc   [best means max / min]
+=>> used to find best sum, product, frequency etc   [best means max / min]  there can be conditions too (eg. delete one element or absolute sum or circular array etc) of SUBARRAY
 =>> works on negative positive zero elements too
 
 why not sliding window?
