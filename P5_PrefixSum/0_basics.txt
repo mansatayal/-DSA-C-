@@ -1,0 +1,9 @@
+PREFIX SUM
+=> array/ subarray ==> + neagtive numbers that's why no sliding window
+
+1. sum of left/ right   pivot/ equilibrium
+
+2. sum of subarrays {number of subarrays + sum} {count of subarrays + sum} {max/ min sum of subarray}
+=> a. subarray sum == k     subarray % k == 0       ==> use hashmaps
+=> b. shortest window with sum >= k                 ==> use deque
+=> c. range sum                                     ==> merge sort or prefix array
