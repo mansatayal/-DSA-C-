@@ -22,6 +22,8 @@ public:
     }
 };
 
+// store the running/prefix sum as you iterate through the array and storte it in the hashmap and check later has that (current sum - k) occured as a prfix sum at some index earlier                            if yes then there's surely an subarray whose sum == k    we're dividing it as sum - k + k = sum
+
 
 // qn: https://leetcode.com/problems/subarray-sum-equals-k/
 
