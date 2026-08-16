@@ -1,0 +1,14 @@
+MERGE INTERVALS
+
+=> array
+=> ranges/ interval     [start, end]    as input
+=> keywords:
+    overlap
+    conflict
+    merge 
+    freetime
+    simultaneous use
+    rooms/ load/ cpu/ meetings
+
+
+* we generally start by sorting with start
