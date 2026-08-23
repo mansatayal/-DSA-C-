@@ -14,11 +14,10 @@ public:
             int idx = i % sz;       // wrap i back into the corerct range
             
             // pop till either the stack is empty or a greater element is found
-            while(!temp.empty() && nums[idx] >= temp.top()) temp.pop();
+            while(!temp.empty() && nums[idx] >= temp.top()) temp.pop();     // i >= sz
 
-            if(sz > i){
-                ans[idx] = temp.empty()? -1 : temp.top();   // store 
-            }
+            ans[idx] = temp.empty()? -1 : temp.top();   // store                i < sz
+
 
             temp.push(nums[idx]);   // push the current 
         }
