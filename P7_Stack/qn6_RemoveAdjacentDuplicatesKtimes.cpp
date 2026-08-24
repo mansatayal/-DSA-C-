@@ -3,14 +3,14 @@
 #include <algorithm>
 using namespace std;
 
-
 class Solution {
 public:
     string removeDuplicates(string s, int k) {
         stack <pair<char,int>> st;
 
-        for(char c : s){
-            if(!st.empty() && c == st.top().first){
+        // using a reverse loop so the elements stored in the stack can be retrived without using reverse 
+        for(int c = s.size() - 1; c >= 0; c--){
+            if(!st.empty() && s[c] == st.top().first){
                 // increment the count of the pair
                 auto p = st.top(); 
                 st.pop();
@@ -18,7 +18,7 @@ public:
                 st.push(p);
             }
             else{
-                st.push({c,1});
+                st.push({s[c],1});
             }
 
             if(st.top().second == k) st.pop();
@@ -26,17 +26,14 @@ public:
 
         string ans;
         while(!st.empty()){
-            auto [ch, cnt] = st.top();
+            // eg. append(3,a) is add aaa
+            ans.append(st.top().second, st.top().first);
             st.pop();
-
-            ans.append(cnt, ch);    // eg. cnt is 3 and ch is a then append aaa
         }
-
-        reverse(ans.begin(), ans.end());   // stack pops from back hence we need to reverse it
 
         return ans;
     }
 };
 
-// qn: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/
 
+// qn: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/
