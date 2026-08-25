@@ -3,6 +3,12 @@ using namespace std;
 #include <map>
 #include <unordered_map>
 
+// when to use:
+// =>remembers old data 
+// => ask - what's the value of the key
+//        - key exists or not
+
+// types:
 // unordered_map - stores key value in random sequence
 // map - stores key value in the order they've been inserted    
 
