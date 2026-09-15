@@ -1,0 +1,5 @@
+BINARY SEARCH
+- single thing would be asked {index, optimization}
+- guess --- O(1) / O(N) ---> answer
+- answer should be monotonic (bad to good) [can't be bad bad good bad]
+
