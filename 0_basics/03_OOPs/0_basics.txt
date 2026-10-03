@@ -1,0 +1,35 @@
+OBJECTS: are ENTITIES of real world.                // eg bike cycle scooty car truck
+CLASSES: is like a BLUEPRINT of these entities.     // eg all these come in the category "vehicle"
+
+
+ACCESS MODIFIERS:
+- private:      data & methods accessible inside class 
+- public:       data & methods accessible to everyone
+- protected:    data & methods accessible inside class & to its derived class
+
+Constructor: speacial method invoked automatically at time of object creation. used for initialisation.
+- same name as class
+- Constructordoesn't have return type
+- only called once (automatically), at object creation.
+-memory allocation happens when constructor is called.
+
+having more than one constructor is possible only if the number of parameters and types are different this is known as constructor overloading
+
+Types of constructors:
+1. non parameterized : doesn't have any paramenters.
+2. parameterized     : have parameters.
+3. copy constructor  : special constructor (default) used to copy properties of one object into another
+copy is of two types:   
+    c1. shallow :   copies all of the member values from one object to another.
+    c2. deep    :   not only copies the member values but also makes copies of any dynamically allocated memory that the member points to.  
+
+
+
+PILLARS OF OOPS:
+1. ENCAPSULATION:   wrapping up of data & member functions in a single unit called class.
+-                   helps in data hiding (make them private)        BASICALLY CREATING A CLASS 
+2. ABSTRACTION  : 
+3. INHERITANCE  :   
+4. POLYMORPHISM :         
+
+ 
