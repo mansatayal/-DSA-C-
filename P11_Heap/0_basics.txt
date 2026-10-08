@@ -1,0 +1,17 @@
+HEAP:   (PRIORITY QUEUE)
+- MIN HEAP  : root is the smallest element 
+- MAX HEAP  : root is the greatest element
+
+Pattern:
+1. Top K:
+    - top K
+    - kth smallest / largest
+    - best / worst K
+
+2. K closest:
+
+3. heap as pointer (merge):
+
+4. greedy + heap:
+
+5. 2 heaps:
