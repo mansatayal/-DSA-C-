@@ -3,15 +3,19 @@ HEAP:   (PRIORITY QUEUE)
 - MAX HEAP  : root is the greatest element
 
 Pattern:
-1. Top K:
+1. Top K:   (qn 1 to 4)
     - top K
     - kth smallest / largest
     - best / worst K
+
+    -top /largest / greatest etc : min heap ; check if the top element is smaller then the array's element, if it is pop and push else continue
+    -smallest / worst/ closest etc        : max heap
 
 2. K closest:
 
 3. heap as pointer (merge):
 
-4. greedy + heap:
+4. greedy + heap:  (qn 5 to )
+    - reorganize string 
 
 5. 2 heaps:
